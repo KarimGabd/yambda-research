@@ -1,0 +1,22 @@
+{
+  "evaluated_users_with_positive": 229,
+  "distinct_future_positive_pairs": 24102,
+  "candidate_recall_macro": 0.4872720386814287,
+  "candidate_recall_micro": 0.443075263463613,
+  "recall_at_10_macro": 0.09140885268595407,
+  "ndcg_at_10_macro": 0.4251808457435396,
+  "mean_candidates_per_evaluated_user": 1228.061135371179,
+  "popularity_recall_at_10_macro": 0.004637546808824781,
+  "popularity_ndcg_at_10_macro": 0.0343461869850354,
+  "validation_logloss_on_candidates": 0.08226564016246009,
+  "validation_roc_auc_on_candidates": 0.9322148743181704,
+  "train_candidate_rows": 1402246,
+  "train_positive_candidate_rows": 40970,
+  "validation_candidate_rows": 357124,
+  "validation_positive_candidate_rows": 10679,
+  "feature_count": 28,
+  "best_iteration": 301,
+  "training_seconds": 49.92,
+  "feature_generation_seconds": 9.11,
+  "evaluation_note": "LogLoss/AUC only on generated candidates; ranking denominators include ALL future positives, with repeats deduplicated per user-item. Test is untouched."
+}

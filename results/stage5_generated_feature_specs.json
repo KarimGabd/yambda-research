@@ -1,0 +1,506 @@
+[
+  {
+    "name": "auto_user_positive_1d_count",
+    "kind": "positive",
+    "days": 1,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_positive_1d_count",
+    "kind": "positive",
+    "days": 1,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_positive_1d_count",
+    "kind": "positive",
+    "days": 1,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_positive_3d_count",
+    "kind": "positive",
+    "days": 3,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_positive_3d_count",
+    "kind": "positive",
+    "days": 3,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_positive_3d_count",
+    "kind": "positive",
+    "days": 3,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_positive_7d_count",
+    "kind": "positive",
+    "days": 7,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_positive_7d_count",
+    "kind": "positive",
+    "days": 7,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_positive_7d_count",
+    "kind": "positive",
+    "days": 7,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_positive_14d_count",
+    "kind": "positive",
+    "days": 14,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_positive_14d_count",
+    "kind": "positive",
+    "days": 14,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_positive_14d_count",
+    "kind": "positive",
+    "days": 14,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_positive_30d_count",
+    "kind": "positive",
+    "days": 30,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_positive_30d_count",
+    "kind": "positive",
+    "days": 30,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_positive_30d_count",
+    "kind": "positive",
+    "days": 30,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_positive_60d_count",
+    "kind": "positive",
+    "days": 60,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_positive_60d_count",
+    "kind": "positive",
+    "days": 60,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_positive_60d_count",
+    "kind": "positive",
+    "days": 60,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_listen_1d_count",
+    "kind": "listen",
+    "days": 1,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_listen_1d_count",
+    "kind": "listen",
+    "days": 1,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_listen_1d_count",
+    "kind": "listen",
+    "days": 1,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_listen_3d_count",
+    "kind": "listen",
+    "days": 3,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_listen_3d_count",
+    "kind": "listen",
+    "days": 3,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_listen_3d_count",
+    "kind": "listen",
+    "days": 3,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_listen_7d_count",
+    "kind": "listen",
+    "days": 7,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_listen_7d_count",
+    "kind": "listen",
+    "days": 7,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_listen_7d_count",
+    "kind": "listen",
+    "days": 7,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_listen_14d_count",
+    "kind": "listen",
+    "days": 14,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_listen_14d_count",
+    "kind": "listen",
+    "days": 14,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_listen_14d_count",
+    "kind": "listen",
+    "days": 14,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_listen_30d_count",
+    "kind": "listen",
+    "days": 30,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_listen_30d_count",
+    "kind": "listen",
+    "days": 30,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_listen_30d_count",
+    "kind": "listen",
+    "days": 30,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_listen_60d_count",
+    "kind": "listen",
+    "days": 60,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_listen_60d_count",
+    "kind": "listen",
+    "days": 60,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_listen_60d_count",
+    "kind": "listen",
+    "days": 60,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_like_1d_count",
+    "kind": "like",
+    "days": 1,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_like_1d_count",
+    "kind": "like",
+    "days": 1,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_like_1d_count",
+    "kind": "like",
+    "days": 1,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_like_3d_count",
+    "kind": "like",
+    "days": 3,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_like_3d_count",
+    "kind": "like",
+    "days": 3,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_like_3d_count",
+    "kind": "like",
+    "days": 3,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_like_7d_count",
+    "kind": "like",
+    "days": 7,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_like_7d_count",
+    "kind": "like",
+    "days": 7,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_like_7d_count",
+    "kind": "like",
+    "days": 7,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_like_14d_count",
+    "kind": "like",
+    "days": 14,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_like_14d_count",
+    "kind": "like",
+    "days": 14,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_like_14d_count",
+    "kind": "like",
+    "days": 14,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_like_30d_count",
+    "kind": "like",
+    "days": 30,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_like_30d_count",
+    "kind": "like",
+    "days": 30,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_like_30d_count",
+    "kind": "like",
+    "days": 30,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_like_60d_count",
+    "kind": "like",
+    "days": 60,
+    "relation": "user",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_item_like_60d_count",
+    "kind": "like",
+    "days": 60,
+    "relation": "item",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_pair_like_60d_count",
+    "kind": "like",
+    "days": 60,
+    "relation": "pair",
+    "aggregation": "count"
+  },
+  {
+    "name": "auto_user_positive_1d_nunique_items",
+    "kind": "positive",
+    "days": 1,
+    "relation": "user",
+    "aggregation": "nunique_items"
+  },
+  {
+    "name": "auto_item_positive_1d_nunique_users",
+    "kind": "positive",
+    "days": 1,
+    "relation": "item",
+    "aggregation": "nunique_users"
+  },
+  {
+    "name": "auto_user_artist_positive_1d_max_count",
+    "kind": "positive",
+    "days": 1,
+    "relation": "user_artist",
+    "aggregation": "max_count"
+  },
+  {
+    "name": "auto_user_positive_3d_nunique_items",
+    "kind": "positive",
+    "days": 3,
+    "relation": "user",
+    "aggregation": "nunique_items"
+  },
+  {
+    "name": "auto_item_positive_3d_nunique_users",
+    "kind": "positive",
+    "days": 3,
+    "relation": "item",
+    "aggregation": "nunique_users"
+  },
+  {
+    "name": "auto_user_artist_positive_3d_max_count",
+    "kind": "positive",
+    "days": 3,
+    "relation": "user_artist",
+    "aggregation": "max_count"
+  },
+  {
+    "name": "auto_user_positive_7d_nunique_items",
+    "kind": "positive",
+    "days": 7,
+    "relation": "user",
+    "aggregation": "nunique_items"
+  },
+  {
+    "name": "auto_item_positive_7d_nunique_users",
+    "kind": "positive",
+    "days": 7,
+    "relation": "item",
+    "aggregation": "nunique_users"
+  },
+  {
+    "name": "auto_user_artist_positive_7d_max_count",
+    "kind": "positive",
+    "days": 7,
+    "relation": "user_artist",
+    "aggregation": "max_count"
+  },
+  {
+    "name": "auto_user_positive_14d_nunique_items",
+    "kind": "positive",
+    "days": 14,
+    "relation": "user",
+    "aggregation": "nunique_items"
+  },
+  {
+    "name": "auto_item_positive_14d_nunique_users",
+    "kind": "positive",
+    "days": 14,
+    "relation": "item",
+    "aggregation": "nunique_users"
+  },
+  {
+    "name": "auto_user_artist_positive_14d_max_count",
+    "kind": "positive",
+    "days": 14,
+    "relation": "user_artist",
+    "aggregation": "max_count"
+  },
+  {
+    "name": "auto_user_positive_30d_nunique_items",
+    "kind": "positive",
+    "days": 30,
+    "relation": "user",
+    "aggregation": "nunique_items"
+  },
+  {
+    "name": "auto_item_positive_30d_nunique_users",
+    "kind": "positive",
+    "days": 30,
+    "relation": "item",
+    "aggregation": "nunique_users"
+  },
+  {
+    "name": "auto_user_artist_positive_30d_max_count",
+    "kind": "positive",
+    "days": 30,
+    "relation": "user_artist",
+    "aggregation": "max_count"
+  },
+  {
+    "name": "auto_user_positive_60d_nunique_items",
+    "kind": "positive",
+    "days": 60,
+    "relation": "user",
+    "aggregation": "nunique_items"
+  },
+  {
+    "name": "auto_item_positive_60d_nunique_users",
+    "kind": "positive",
+    "days": 60,
+    "relation": "item",
+    "aggregation": "nunique_users"
+  },
+  {
+    "name": "auto_user_artist_positive_60d_max_count",
+    "kind": "positive",
+    "days": 60,
+    "relation": "user_artist",
+    "aggregation": "max_count"
+  }
+]

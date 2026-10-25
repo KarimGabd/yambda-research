@@ -1,0 +1,51 @@
+{
+  "train_cutoffs": [
+    19347200,
+    20556800,
+    21766400,
+    22976000
+  ],
+  "validation_cutoff": 24185600,
+  "test_labels_accessed": false,
+  "candidate_spec_file": "results/stage3_selected.json",
+  "features": [
+    "global_rank",
+    "recent_rank",
+    "is_global_candidate",
+    "is_recent_candidate",
+    "user_pos_7d",
+    "item_pos_7d",
+    "pair_pos_7d",
+    "user_pos_30d",
+    "item_pos_30d",
+    "pair_pos_30d",
+    "user_pos_60d",
+    "item_pos_60d",
+    "pair_pos_60d",
+    "user_days_since_last_positive",
+    "item_days_since_last_positive",
+    "pair_days_since_last_positive",
+    "user_all_listens_30d",
+    "user_likes_60d",
+    "item_all_listens_30d",
+    "item_likes_60d",
+    "pair_all_listens_30d",
+    "pair_likes_60d",
+    "user_unique_pos_items_30d",
+    "item_unique_positive_users_30d",
+    "pair_to_user_share_30d",
+    "pair_to_item_share_30d",
+    "user_artist_pos_30d_max",
+    "user_artist_pos_60d_max"
+  ],
+  "catboost": {
+    "iterations": 400,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 4,
+    "random_seed": 42,
+    "thread_count": 4,
+    "early_stopping_rounds": 50
+  },
+  "ranking_metric": "unconditional macro recall@10 and ndcg@10 on users with >=1 future positive"
+}

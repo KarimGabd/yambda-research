@@ -1,0 +1,103 @@
+{
+  "stage": "final_test_once",
+  "test_cutoff": 25395200,
+  "label_window_end_exclusive": 26000000,
+  "test_window_days": 7,
+  "candidate_spec": {
+    "global_top": 1000,
+    "user_recent": 400,
+    "global_window_days": 30,
+    "user_window_days": 60
+  },
+  "test_new_observed_catalog_item_fraction": 0.10147608896754214,
+  "test_candidate_rows": 358913,
+  "test_positive_pairs": 24863,
+  "test_positive_candidate_rows": 10634,
+  "metrics": {
+    "manual": {
+      "evaluated_users_with_positive": 238,
+      "distinct_future_positive_pairs": 24863,
+      "candidate_recall_macro": 0.48963170345373586,
+      "candidate_recall_micro": 0.42770381691670356,
+      "recall_at_10_macro": 0.09230806017509115,
+      "ndcg_at_10_macro": 0.42190082997480594,
+      "mean_candidates_per_evaluated_user": 1226.357142857143,
+      "test_logloss_on_candidates": 0.08444664758834666,
+      "test_roc_auc_on_candidates": 0.929021115247198,
+      "feature_count": 28,
+      "inference_seconds": 0.09
+    },
+    "auto": {
+      "evaluated_users_with_positive": 238,
+      "distinct_future_positive_pairs": 24863,
+      "candidate_recall_macro": 0.48963170345373586,
+      "candidate_recall_micro": 0.42770381691670356,
+      "recall_at_10_macro": 0.0931783830817524,
+      "ndcg_at_10_macro": 0.4146302692103714,
+      "mean_candidates_per_evaluated_user": 1226.357142857143,
+      "test_logloss_on_candidates": 0.08443781288770333,
+      "test_roc_auc_on_candidates": 0.9276128789180114,
+      "feature_count": 28,
+      "inference_seconds": 0.07
+    },
+    "combined": {
+      "evaluated_users_with_positive": 238,
+      "distinct_future_positive_pairs": 24863,
+      "candidate_recall_macro": 0.48963170345373586,
+      "candidate_recall_micro": 0.42770381691670356,
+      "recall_at_10_macro": 0.09508880919294131,
+      "ndcg_at_10_macro": 0.42658144815689275,
+      "mean_candidates_per_evaluated_user": 1226.357142857143,
+      "test_logloss_on_candidates": 0.08370208822266162,
+      "test_roc_auc_on_candidates": 0.9298333024177283,
+      "feature_count": 40,
+      "inference_seconds": 0.08
+    },
+    "popularity": {
+      "evaluated_users_with_positive": 238,
+      "distinct_future_positive_pairs": 24863,
+      "candidate_recall_macro": 0.48963170345373586,
+      "candidate_recall_micro": 0.42770381691670356,
+      "recall_at_10_macro": 0.007508431415952124,
+      "ndcg_at_10_macro": 0.02839328458224715,
+      "mean_candidates_per_evaluated_user": 1226.357142857143
+    }
+  },
+  "paired_user_bootstrap_ndcg_differences": {
+    "auto_minus_manual": {
+      "model_b_minus_a": "auto - manual",
+      "mean_paired_difference": -0.00727056076443453,
+      "bootstrap_95pct_low": -0.021139525054238134,
+      "bootstrap_95pct_high": 0.006476330527773638,
+      "resampled_users": 238,
+      "bootstrap_resamples": 2000
+    },
+    "combined_minus_manual": {
+      "model_b_minus_a": "combined - manual",
+      "mean_paired_difference": 0.004680618182086787,
+      "bootstrap_95pct_low": -0.007494394852086826,
+      "bootstrap_95pct_high": 0.01708499442998145,
+      "resampled_users": 238,
+      "bootstrap_resamples": 2000
+    }
+  },
+  "time_seconds": {
+    "manual_features": 2.79,
+    "auto_additional": 3.47
+  },
+  "frozen_inputs_sha256": {
+    "stage3_selected.json": "fe8e38551ee7aeb8a0f89d8db16b671fac111a9840d1263ccc6bdb85938d5d29",
+    "stage4_manual_run_config.json": "09f0d46ffb23421adafb287111c1e84156e50d321207aef72862785a5435ca16",
+    "stage5_selected_features.json": "539c88e94660846c1ec6e7c243d6fce56072e88ca55e418697a6636affca5723",
+    "stage4_manual_model.cbm": "a45e168ed1203b527b509fc39dd6c1fd732da8231ec102bac1ed1e1575bdc085",
+    "stage5_auto_model.cbm": "692c93c856e1cc1ed028a907aa44bd765c05c4a492e903c24bf89d5862eaf918",
+    "stage5_combined_model.cbm": "9ce55271fa12a970dec2b4ee579f06c3795d1e6c46c5abd53e3408e36b5b2803"
+  },
+  "versions": {
+    "python": "3.12.0",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "catboost": "1.2.10"
+  },
+  "method_note": "Saved Stage 4/5 models evaluated without retraining on the SAME test candidates. Ranking metrics over users with at least one future positive, denominators include all future positives. AUC/LogLoss conditional on candidates. Paired bootstrap over evaluated users is descriptive, not a population generalization guarantee."
+}

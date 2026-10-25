@@ -1,0 +1,80 @@
+{
+  "dataset": "Yambda-50M, random full-history 300-user sample seed=42",
+  "timestamp_unit": "seconds, 5-second resolution (not five-second bucket indices)",
+  "official_dataset_end": 26000000,
+  "label": "distinct (uid,item_id) with event_type=='listen' and played_ratio_pct>50",
+  "prediction": "at cutoff t, features from events timestamp < t, targets [t,t+604800)",
+  "horizon_days": 7,
+  "train_snapshots": [
+    {
+      "name": "train_1",
+      "cutoff_timestamp": 19347200,
+      "prediction_day": 223.926,
+      "label_interval": [
+        19347200,
+        19952000
+      ],
+      "positive_pairs": 19089,
+      "users_with_positive": 197,
+      "positive_items": 12982,
+      "median_positives_per_active_user": 56.0
+    },
+    {
+      "name": "train_2",
+      "cutoff_timestamp": 20556800,
+      "prediction_day": 237.926,
+      "label_interval": [
+        20556800,
+        21161600
+      ],
+      "positive_pairs": 20810,
+      "users_with_positive": 213,
+      "positive_items": 14456,
+      "median_positives_per_active_user": 57.0
+    },
+    {
+      "name": "train_3",
+      "cutoff_timestamp": 21766400,
+      "prediction_day": 251.926,
+      "label_interval": [
+        21766400,
+        22371200
+      ],
+      "positive_pairs": 22960,
+      "users_with_positive": 221,
+      "positive_items": 15674,
+      "median_positives_per_active_user": 59.0
+    },
+    {
+      "name": "train_4",
+      "cutoff_timestamp": 22976000,
+      "prediction_day": 265.926,
+      "label_interval": [
+        22976000,
+        23580800
+      ],
+      "positive_pairs": 21582,
+      "users_with_positive": 219,
+      "positive_items": 15508,
+      "median_positives_per_active_user": 54.0
+    }
+  ],
+  "validation_snapshot": {
+    "name": "validation",
+    "cutoff_timestamp": 24185600,
+    "prediction_day": 279.926,
+    "label_interval": [
+      24185600,
+      24790400
+    ],
+    "positive_pairs": 24102,
+    "users_with_positive": 229,
+    "positive_items": 17073,
+    "median_positives_per_active_user": 61.0
+  },
+  "test_prediction_cutoff": 25395200,
+  "test_labels_evaluated": false,
+  "candidate_method": "global 500 most listened 30d + user 100 recent unique 60d",
+  "candidate_method_freeze_before_final_test": true,
+  "repeat_listens_allowed": true
+}

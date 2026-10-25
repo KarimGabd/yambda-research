@@ -1,0 +1,15 @@
+{
+  "validation_cutoff": 24185600,
+  "evaluated_users_with_at_least_one_positive": 229,
+  "total_distinct_user_item_positives": 24102,
+  "positive_pairs_not_previously_in_catalog": 2662,
+  "new_catalog_item_fraction": 0.11044726578707162,
+  "candidate_generation": "global top-500 30d positives UNION user last-100 distinct 60d positives",
+  "mean_candidates_per_evaluated_user": 578.0742358078603,
+  "candidate_recall_micro": 0.2055845987884823,
+  "candidate_recall_macro": 0.29607491794433627,
+  "popularity_recall_at_10_macro": 0.004637546808824781,
+  "popularity_ndcg_at_10_macro": 0.0343461869850354,
+  "ranking_baseline": "same global top-10 positive-listen items for all users; repeat items allowed",
+  "important": "These are offline replay metrics on observed future listens, not CTR or causal relevance."
+}

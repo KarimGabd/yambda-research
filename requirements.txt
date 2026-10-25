@@ -1,0 +1,8 @@
+# Minimal direct dependencies for running the Python pipeline.
+# These are not a complete lock file: capture exact transitive versions with `pip freeze`.
+huggingface_hub
+pyarrow
+pandas
+numpy
+catboost
+scikit-learn

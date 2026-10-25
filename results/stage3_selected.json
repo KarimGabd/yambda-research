@@ -1,0 +1,13 @@
+{
+  "global_top": 1000,
+  "user_recent": 400,
+  "global_window_days": 30,
+  "user_window_days": 60,
+  "mean_candidate_count": 1228.061135371179,
+  "validation_candidate_recall_macro": 0.4872720386814287,
+  "validation_candidate_recall_micro": 0.443075263463613,
+  "candidate_budget_mean_per_user": 2000,
+  "selection_rule": "highest validation macro candidate recall under mean 2000 candidates/user",
+  "test_labels_accessed": false,
+  "warning": "Only validation labels used for candidate-selection; freeze before final test."
+}
